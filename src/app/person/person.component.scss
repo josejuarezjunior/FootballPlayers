@@ -1,0 +1,28 @@
+.item {
+  background-color: beige;
+  font-weight: bold;
+
+  &__name {
+    padding: 5px;
+    font-size: large;
+  }
+
+  &__birthplace {
+    padding: 5px;
+  }
+
+  &__age {
+    padding: 5px;
+    font-weight: bolder;
+  }
+
+  &--odd {
+    background-color: #000;
+    color: #fff;
+  }
+
+  &--selected {
+    background-color: gold;
+    color: #000;
+  }
+}
